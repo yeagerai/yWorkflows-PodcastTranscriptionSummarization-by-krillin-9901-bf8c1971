@@ -4,5 +4,7 @@ description: 'InputPodcastUrl is a Pydantic BaseModel subclass with a url field 
   receives the podcast URL as input, transcribes the audio, summarizes the transcript,
   and stores the audio file locally. Finally, it outputs the full transcript, the
   summary, and the local audio file path.'
+input-class: InputPodcastUrl
 name: PodcastTranscriptionSummarization
+output-class: OutputTranscriptSummaryAudio
 parameters: {}
