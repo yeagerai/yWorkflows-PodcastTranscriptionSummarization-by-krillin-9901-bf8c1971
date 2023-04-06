@@ -1,0 +1,6 @@
+description: A component that takes InputPodcastUrl as input and retrieves the podcast's
+  metadata, such as episode title and description, using the Listen Notes API. Outputs
+  a metadata object (dict) containing the information.
+name: FetchPodcastMetadata
+parameters:
+  api_key: your_listen_notes_api_key
