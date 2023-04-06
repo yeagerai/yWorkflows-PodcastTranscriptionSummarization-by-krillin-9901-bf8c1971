@@ -1,0 +1,8 @@
+description: 'InputPodcastUrl is a Pydantic BaseModel subclass with a url field (str).
+  OutputTranscriptSummaryAudio is a Pydantic BaseModel subclass with three fields:
+  transcript (str), summary (str), and audio_file_path (str). This Yeager Component
+  receives the podcast URL as input, transcribes the audio, summarizes the transcript,
+  and stores the audio file locally. Finally, it outputs the full transcript, the
+  summary, and the local audio file path.'
+name: PodcastTranscriptionSummarization
+parameters: {}
